@@ -14,7 +14,7 @@ public class MusicService {
     public MusicService() {
         musicList = new ArrayList<>();
         // 페이크 데이터 초기화
-        musicList.add(new Music(1L, "Dynamite", "BTS", "BE", 2020, "K-pop", 199, 1000000));
+        musicList.add(new Music(1L, "DNB", "BTS", "BE", 2020, "K-pop", 199, 1000000));
         musicList.add(new Music(2L, "Spring Day", "BTS", "You Never Walk Alone", 2017, "K-pop", 255, 950000));
         musicList.add(new Music(3L, "How You Like That", "BLACKPINK", "THE ALBUM", 2020, "K-pop", 182, 890000));
         musicList.add(new Music(4L, "Maria", "Hwasa", "Maria", 2020, "K-pop", 195, 450000));
